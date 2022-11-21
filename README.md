@@ -4,13 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#Real working clock with different timezones and no hard-coded data for flags and timezones except default one(Yangon/Myanmar).
+#This application is mainly based on apis.
+#If access to specfic api for different timezone failed, this will return to default.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#APIS
+1. http://worldtimeapi.org (for different timezones)
+2. https://nominatim.org (for country code for each timezone)
+3. https://countryflagsapi.com (for flag using country_code returned from nominatim)
