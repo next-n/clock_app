@@ -1,9 +1,5 @@
 # clock_app
 
-A new Flutter project.
-
-## Getting Started
-
 #Real working clock with different timezones and no hard-coded data for flags and timezones except default one(Yangon/Myanmar).
 #This application is mainly based on apis.
 #If access to specfic api for different timezone failed, this will return to default.
